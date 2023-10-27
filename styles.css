@@ -1,2 +1,20 @@
 
 /* Your CSS Code here. */
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 200px; /* Set the width of the container */
+    background-color: purple; /* Set the background color of the container */
+    border-left: 5px solid green; /* Set the left side border properties */
+    padding: 10px; /* Set padding on all sides of the container */
+}
+
+.heading {
+    font-size: 20px; /* Set the font size for the heading */
+    color: white; /* Set the text color for the heading */
+    text-decoration: underline; /* Add an underline to the text */
+}
